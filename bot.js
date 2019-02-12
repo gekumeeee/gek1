@@ -5,6 +5,7 @@ const myid = ['351366504068939777'];
 const prefix = ['1'];
 
 client.on('ready', () => {
+   client.user.setGame(`Gekyume TOP`,'https://www.twitch.tv/♥ Premium ℕova ♥');
    console.log(`----------------`);
    console.log(`Credit Farmm - Script By : GEKYUME `);
    console.log(`----------------`);
@@ -15,8 +16,8 @@ client.on('ready', () => {
    console.log(`This Bots Online ' `);
    console.log(`----------------`);
 });
-
-client2.on('ready', () => {
+client2.on('ready', () => {                           
+client2.user.setGame(`Gekyume TOP`,'https://www.twitch.tv/♥ Premium ℕova ♥');
    console.log(`----------------`);
    console.log(`2 Account Online ✩' `);
    console.log(`----------------`);
