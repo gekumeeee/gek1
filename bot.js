@@ -6,7 +6,7 @@ const prefix = ['1'];
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`Credit Farmm - Script By : GEKYUME `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
