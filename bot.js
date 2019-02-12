@@ -1,8 +1,8 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const myid = [''];
-const prefix = ['-'];
+const myid = ['351366504068939777'];
+const prefix = ['1'];
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -43,11 +43,11 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-if (message.content === prefix+'spam') {
+if (message.content === prefix+'spam1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**GEKYUME tooooooooooooop**[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -68,7 +68,7 @@ client.on('message', message => {
 
 
 if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
+let rank = message.guild.member(message.author).roles.find('name', 'GEKYUME');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
@@ -94,11 +94,11 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-if (message.content === prefix+'spam') {
+if (message.content === prefix+'spam1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**GEKYUME tooooooooooooop**[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -119,7 +119,7 @@ client2.on('message', message => {
 
 
 if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
+let rank = message.guild.member(message.author).roles.find('name', 'GEKYUME');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
