@@ -2,7 +2,7 @@
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const myid = ['351366504068939777'];
-const prefix = ['1'];
+const prefix = ['!'];
 
 client.on('ready', () => {
    client.user.setGame(`Gekyume TOP`,'https://www.twitch.tv/♥ Premium ℕova ♥');
@@ -26,19 +26,19 @@ client2.user.setGame(`Gekyume TOP`,'https://www.twitch.tv/♥ Premium ℕova ♥
 
 
 client.on('message', message => {
-    if(message.content === prefix+'راتب'){
+    if(message.content === prefix+'d'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
+    if(message.content === prefix+'c'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'ريب'){
+    if(message.content === prefix+'r'){
         message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
@@ -68,7 +68,7 @@ client.on('message', message => {
 
 
 
-if (command == "تحدث") {
+if (command == "g") {
 let rank = message.guild.member(message.author).roles.find('name', 'GEKYUME');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
@@ -77,19 +77,19 @@ if (!rank) return message.reply(' ')
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'راتب'){
+    if(message.content === prefix+'d'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
+    if(message.content === prefix+'c'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'ريب'){
+    if(message.content === prefix+'r'){
         message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
@@ -119,7 +119,7 @@ client2.on('message', message => {
 
 
 
-if (command == "تحدث") {
+if (command == "g") {
 let rank = message.guild.member(message.author).roles.find('name', 'GEKYUME');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
